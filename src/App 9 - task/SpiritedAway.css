@@ -1,0 +1,77 @@
+.body9 {
+    margin: 0;
+    background-color: antiquewhite;
+    padding: 1em 0 3em;
+}
+
+.imgp {
+    width: 15em;
+    height: 10em;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card1 {
+    /* border: 2px solid black; */
+    border-radius: 0.5em;
+    width: 15em;
+    height: 18em;
+    padding: 1em;
+    box-shadow: 0 0 5px 5px gray ;
+    background-color: whitesmoke;
+}
+
+.places {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card2 {
+    /* border: 2px solid black; */
+    border-radius: 0.5em;
+    width: 15em;
+    height: 23.5em;
+    padding: 1em;
+    box-shadow: 0 0 5px 5px gray ;
+    background-color: whitesmoke;
+}
+
+.followButton {
+    background-color: #00B9E8;
+    font-size: 1rem;
+    padding: 0.25em 0.5em;
+    border-radius: 0.5em;
+    border: 2px outset #00B9E8;
+    margin: 0.5em auto;
+    display: block;
+    cursor: pointer;
+}
+
+.followers {
+    text-align: center;
+}
+
+.head9 {
+    color: red;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.heading9{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.author {
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width:920px) {
+    .places {
+        flex-direction: column;
+        align-items: center;
+    }
+}
